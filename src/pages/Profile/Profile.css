@@ -1,0 +1,87 @@
+.Profile-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+}
+.ProfileForm {
+  width: 100%;
+  border: 1px solid #43a047;
+  padding: 3rem;
+  background-color: rgb(241, 224, 224);
+  border-radius: 3rem;
+}
+
+.ProfileForm-dark {
+  width: 100%;
+  border: 1px solid #43a047;
+  padding: 3rem;
+  background-color: #272a37;
+  border-radius: 3rem;
+}
+
+.searchIcon {
+  border: 2px solid #ced4da;
+  height: 2.3rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.searchIcon:hover {
+  border: 2px solid #3b71ca;
+}
+.file-box {
+  border: 2px solid #ced4da;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.file-box:hover {
+  border: 2px solid #3b71ca;
+}
+
+.selectedFileBox {
+  border: 2px solid green;
+}
+
+.selectedFile {
+  align-self: flex-end;
+  border: 2px solid green;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 601px) {
+  .ProfileForm,
+  .ProfileForm-dark {
+    width: 80%;
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ProfileForm,
+  .ProfileForm-dark {
+    width: 95%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 295px) {
+  .ProfileForm,
+  .ProfileForm-dark {
+    width: 100%;
+    padding: 0;
+    border-radius: 10px;
+  }
+}
+.profile-icon {
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.About-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+}
+.about-male-chat-illustration {
+  width: 80%;
+}
+
+.about-chat-bubble {
+  width: 50%;
+}
+
+@media screen and (max-width: 834px) {
+  .About-main {
+    width: 95%;
+  }
+}

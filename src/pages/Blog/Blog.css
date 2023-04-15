@@ -1,0 +1,25 @@
+.Blog-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80%;
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.Blog-content {
+  display: flex;
+  justify-content: space-evenly;
+
+  background-color: whitesmoke;
+  padding: 2rem;
+  border: 2px solid #3b71ca;
+  border-radius: 1rem;
+}
+.blog-item {
+  flex: 3;
+  padding: 1rem;
+  text-align: justify;
+}
